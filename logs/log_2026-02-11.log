@@ -1,0 +1,490 @@
+2026-02-11 00:16:40,119 - INFO - Making the vectorstore....
+2026-02-11 00:16:40,119 - INFO - Loading files from data/
+2026-02-11 00:17:13,919 - INFO - Sucesfully fetched 759 documents
+2026-02-11 00:17:13,919 - INFO - Splitting 759 documents into chunks
+2026-02-11 00:17:14,307 - INFO - Generated 7080 text chunks
+2026-02-11 00:17:14,308 - INFO - Generating your new vectorstore
+2026-02-11 00:17:14,308 - INFO - Intializing our Huggingface embedding model
+2026-02-11 00:17:14,309 - ERROR - Error occured while loading embedding model | Error: Could not import sentence_transformers python package. Please install it with `pip install sentence-transformers`. | File: D:\LLMOPS-PROJ\Ragbot\app\components\embeddings.py | Line: 12
+2026-02-11 00:17:14,312 - ERROR - Failed to craete new vectorstore  | Error: Error occured while loading embedding model | Error: Could not import sentence_transformers python package. Please install it with `pip install sentence-transformers`. | File: D:\LLMOPS-PROJ\Ragbot\app\components\embeddings.py | Line: 12 | File: D:\LLMOPS-PROJ\Ragbot\app\components\vector_store.py | Line: 38
+2026-02-11 00:17:14,312 - INFO - Vectorstore created sucessfully....
+2026-02-11 00:22:41,184 - INFO - Making the vectorstore....
+2026-02-11 00:22:41,184 - INFO - Loading files from data/
+2026-02-11 00:23:15,372 - INFO - Sucesfully fetched 759 documents
+2026-02-11 00:23:15,372 - INFO - Splitting 759 documents into chunks
+2026-02-11 00:23:15,769 - INFO - Generated 7080 text chunks
+2026-02-11 00:23:15,770 - INFO - Generating your new vectorstore
+2026-02-11 00:23:15,770 - INFO - Intializing our Huggingface embedding model
+2026-02-11 00:23:15,771 - ERROR - Error occured while loading embedding model | Error: Could not import sentence_transformers python package. Please install it with `pip install sentence-transformers`. | File: D:\LLMOPS-PROJ\Ragbot\app\components\embeddings.py | Line: 12
+2026-02-11 00:23:15,771 - ERROR - Failed to craete new vectorstore  | Error: Error occured while loading embedding model | Error: Could not import sentence_transformers python package. Please install it with `pip install sentence-transformers`. | File: D:\LLMOPS-PROJ\Ragbot\app\components\embeddings.py | Line: 12 | File: D:\LLMOPS-PROJ\Ragbot\app\components\vector_store.py | Line: 38
+2026-02-11 00:23:15,771 - INFO - Vectorstore created sucessfully....
+2026-02-11 00:46:10,898 - INFO - Making the vectorstore....
+2026-02-11 00:46:10,898 - INFO - Loading files from data/
+2026-02-11 00:46:50,932 - INFO - Sucesfully fetched 759 documents
+2026-02-11 00:46:50,932 - INFO - Splitting 759 documents into chunks
+2026-02-11 00:46:51,309 - INFO - Generated 4703 text chunks
+2026-02-11 00:46:51,309 - INFO - Generating your new Chroma vectorstore...
+2026-02-11 00:46:51,309 - INFO - Intializing our Huggingface embedding model
+2026-02-11 00:46:51,314 - INFO - Use pytorch device_name: cpu
+2026-02-11 00:46:51,314 - INFO - Load pretrained SentenceTransformer: sentence-transformers/all-MiniLM-L6-v2
+2026-02-11 00:46:55,213 - INFO - Huggingface embedding model loaded sucesfully....
+2026-02-11 00:46:55,349 - INFO - Anonymized telemetry enabled. See                     https://docs.trychroma.com/telemetry for more information.
+2026-02-11 00:50:34,193 - INFO - Persisting vectorstore...
+2026-02-11 00:50:34,193 - ERROR - Failed to create new vectorstore | Error: 'Chroma' object has no attribute 'persist' | File: D:\LLMOPS-PROJ\Ragbot\app\components\vector_store.py | Line: 62
+2026-02-11 00:50:34,193 - ERROR - Failed to create vectorstore | Error: 'Chroma' object has no attribute 'persist' | File: D:\LLMOPS-PROJ\Ragbot\app\components\data_loader.py | Line: 19
+2026-02-11 00:53:45,182 - INFO - Making the vectorstore....
+2026-02-11 00:53:45,182 - INFO - Loading files from data/
+2026-02-11 00:54:24,352 - INFO - Sucesfully fetched 759 documents
+2026-02-11 00:54:24,352 - INFO - Splitting 759 documents into chunks
+2026-02-11 00:54:24,718 - INFO - Generated 4703 text chunks
+2026-02-11 00:54:24,718 - INFO - Generating your new Chroma vectorstore...
+2026-02-11 00:54:24,718 - INFO - Intializing our Huggingface embedding model
+2026-02-11 00:54:24,720 - INFO - Use pytorch device_name: cpu
+2026-02-11 00:54:24,726 - INFO - Load pretrained SentenceTransformer: sentence-transformers/all-MiniLM-L6-v2
+2026-02-11 00:54:28,918 - INFO - Huggingface embedding model loaded sucesfully....
+2026-02-11 00:54:29,383 - INFO - Anonymized telemetry enabled. See                     https://docs.trychroma.com/telemetry for more information.
+2026-02-11 00:57:56,840 - INFO - Vectorstore saved successfully at: vectorstore/chroma_db
+2026-02-11 00:57:56,840 - INFO - Vectorstore created sucessfully....
+2026-02-11 01:00:07,212 - INFO - Intializing our Huggingface embedding model
+2026-02-11 01:00:14,255 - INFO - Use pytorch device_name: cpu
+2026-02-11 01:00:14,257 - INFO - Load pretrained SentenceTransformer: sentence-transformers/all-MiniLM-L6-v2
+2026-02-11 01:01:16,485 - INFO - Huggingface embedding model loaded sucesfully....
+2026-02-11 01:01:16,485 - INFO - Loading existing Chroma vectorstore...
+2026-02-11 01:01:17,615 - INFO - Anonymized telemetry enabled. See                     https://docs.trychroma.com/telemetry for more information.
+2026-02-11 12:48:06,163 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.1.238:5000
+2026-02-11 12:48:06,165 - INFO - [33mPress CTRL+C to quit[0m
+2026-02-11 12:48:47,645 - INFO - 127.0.0.1 - - [11/Feb/2026 12:48:47] "GET / HTTP/1.1" 200 -
+2026-02-11 12:48:47,779 - INFO - 127.0.0.1 - - [11/Feb/2026 12:48:47] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2026-02-11 12:49:27,441 - INFO - Loading vector store for context
+2026-02-11 12:49:27,443 - INFO - Intializing our Huggingface embedding model
+2026-02-11 12:49:27,448 - INFO - Use pytorch device_name: cpu
+2026-02-11 12:49:27,448 - INFO - Load pretrained SentenceTransformer: sentence-transformers/all-MiniLM-L6-v2
+2026-02-11 12:49:31,273 - INFO - Loading vector store for context
+2026-02-11 12:49:31,273 - INFO - Intializing our Huggingface embedding model
+2026-02-11 12:49:31,281 - INFO - Use pytorch device_name: cpu
+2026-02-11 12:49:31,281 - INFO - Load pretrained SentenceTransformer: sentence-transformers/all-MiniLM-L6-v2
+2026-02-11 12:49:33,074 - INFO - Huggingface embedding model loaded sucesfully....
+2026-02-11 12:49:33,074 - INFO - Loading existing Chroma vectorstore...
+2026-02-11 12:49:33,210 - INFO - Anonymized telemetry enabled. See                     https://docs.trychroma.com/telemetry for more information.
+2026-02-11 12:49:34,423 - INFO - Loading vector store for context
+2026-02-11 12:49:34,423 - INFO - Intializing our Huggingface embedding model
+2026-02-11 12:49:34,606 - INFO - Use pytorch device_name: cpu
+2026-02-11 12:49:34,606 - INFO - Load pretrained SentenceTransformer: sentence-transformers/all-MiniLM-L6-v2
+2026-02-11 12:49:34,789 - INFO - Loading LLM from HuggingFace
+2026-02-11 12:49:35,109 - INFO - Huggingface embedding model loaded sucesfully....
+2026-02-11 12:49:35,109 - INFO - Loading existing Chroma vectorstore...
+2026-02-11 12:49:35,207 - INFO - Loading LLM from HuggingFace
+2026-02-11 12:49:35,229 - INFO - LLM loaded sucesfully...
+2026-02-11 12:49:35,229 - INFO - LLM loaded sucesfully...
+2026-02-11 12:49:35,229 - ERROR - Failed to make a QA chain | Error: name 'RetrievalQA' is not defined | File: D:\LLMOPS-PROJ\Ragbot\app\components\retriever.py | Line: 42
+2026-02-11 12:49:35,229 - ERROR - Failed to make a QA chain | Error: name 'RetrievalQA' is not defined | File: D:\LLMOPS-PROJ\Ragbot\app\components\retriever.py | Line: 42
+2026-02-11 12:49:35,245 - INFO - 127.0.0.1 - - [11/Feb/2026 12:49:35] "POST / HTTP/1.1" 200 -
+2026-02-11 12:49:35,245 - INFO - 127.0.0.1 - - [11/Feb/2026 12:49:35] "POST / HTTP/1.1" 200 -
+2026-02-11 12:49:35,888 - INFO - Loading vector store for context
+2026-02-11 12:49:35,888 - INFO - Intializing our Huggingface embedding model
+2026-02-11 12:49:35,893 - INFO - Use pytorch device_name: cpu
+2026-02-11 12:49:35,893 - INFO - Load pretrained SentenceTransformer: sentence-transformers/all-MiniLM-L6-v2
+2026-02-11 12:49:38,401 - INFO - Huggingface embedding model loaded sucesfully....
+2026-02-11 12:49:38,402 - INFO - Loading existing Chroma vectorstore...
+2026-02-11 12:49:38,581 - INFO - Loading LLM from HuggingFace
+2026-02-11 12:49:38,581 - INFO - LLM loaded sucesfully...
+2026-02-11 12:49:38,581 - ERROR - Failed to make a QA chain | Error: name 'RetrievalQA' is not defined | File: D:\LLMOPS-PROJ\Ragbot\app\components\retriever.py | Line: 42
+2026-02-11 12:49:38,581 - INFO - 127.0.0.1 - - [11/Feb/2026 12:49:38] "POST / HTTP/1.1" 200 -
+2026-02-11 12:49:39,716 - INFO - Huggingface embedding model loaded sucesfully....
+2026-02-11 12:49:39,716 - INFO - Loading existing Chroma vectorstore...
+2026-02-11 12:49:39,808 - INFO - Loading LLM from HuggingFace
+2026-02-11 12:49:39,808 - INFO - LLM loaded sucesfully...
+2026-02-11 12:49:39,808 - ERROR - Failed to make a QA chain | Error: name 'RetrievalQA' is not defined | File: D:\LLMOPS-PROJ\Ragbot\app\components\retriever.py | Line: 42
+2026-02-11 12:49:39,815 - INFO - 127.0.0.1 - - [11/Feb/2026 12:49:39] "POST / HTTP/1.1" 200 -
+2026-02-11 12:50:34,511 - INFO - 127.0.0.1 - - [11/Feb/2026 12:50:34] "[32mGET /clear HTTP/1.1[0m" 302 -
+2026-02-11 12:50:34,531 - INFO - 127.0.0.1 - - [11/Feb/2026 12:50:34] "GET / HTTP/1.1" 200 -
+2026-02-11 12:50:40,273 - INFO - Loading vector store for context
+2026-02-11 12:50:40,273 - INFO - Intializing our Huggingface embedding model
+2026-02-11 12:50:40,273 - INFO - Use pytorch device_name: cpu
+2026-02-11 12:50:40,273 - INFO - Load pretrained SentenceTransformer: sentence-transformers/all-MiniLM-L6-v2
+2026-02-11 12:50:43,914 - INFO - Huggingface embedding model loaded sucesfully....
+2026-02-11 12:50:43,914 - INFO - Loading existing Chroma vectorstore...
+2026-02-11 12:50:44,000 - INFO - Loading LLM from HuggingFace
+2026-02-11 12:50:44,000 - INFO - LLM loaded sucesfully...
+2026-02-11 12:50:44,000 - ERROR - Failed to make a QA chain | Error: name 'RetrievalQA' is not defined | File: D:\LLMOPS-PROJ\Ragbot\app\components\retriever.py | Line: 42
+2026-02-11 12:50:44,000 - INFO - 127.0.0.1 - - [11/Feb/2026 12:50:44] "POST / HTTP/1.1" 200 -
+2026-02-11 12:58:04,874 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.1.238:5000
+2026-02-11 12:58:04,874 - INFO - [33mPress CTRL+C to quit[0m
+2026-02-11 12:58:28,125 - INFO - 127.0.0.1 - - [11/Feb/2026 12:58:28] "GET / HTTP/1.1" 200 -
+2026-02-11 12:58:33,376 - INFO - 127.0.0.1 - - [11/Feb/2026 12:58:33] "[32mGET /clear HTTP/1.1[0m" 302 -
+2026-02-11 12:58:33,391 - INFO - 127.0.0.1 - - [11/Feb/2026 12:58:33] "GET / HTTP/1.1" 200 -
+2026-02-11 12:58:43,813 - INFO - Loading vector store for context
+2026-02-11 12:58:43,814 - INFO - Intializing our Huggingface embedding model
+2026-02-11 12:58:43,821 - INFO - Use pytorch device_name: cpu
+2026-02-11 12:58:43,821 - INFO - Load pretrained SentenceTransformer: sentence-transformers/all-MiniLM-L6-v2
+2026-02-11 12:58:47,366 - INFO - Huggingface embedding model loaded sucesfully....
+2026-02-11 12:58:47,366 - INFO - Loading existing Chroma vectorstore...
+2026-02-11 12:58:47,526 - INFO - Loading LLM from HuggingFace
+2026-02-11 12:58:47,526 - INFO - LLM loaded sucesfully...
+2026-02-11 12:58:47,526 - ERROR - Failed to make a QA chain | Error: name 'RetrievalQA' is not defined | File: D:\LLMOPS-PROJ\Ragbot\app\components\retriever.py | Line: 42
+2026-02-11 12:58:47,531 - INFO - 127.0.0.1 - - [11/Feb/2026 12:58:47] "POST / HTTP/1.1" 200 -
+2026-02-11 13:57:11,647 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.1.238:5000
+2026-02-11 13:57:11,647 - INFO - [33mPress CTRL+C to quit[0m
+2026-02-11 14:04:32,233 - INFO - 127.0.0.1 - - [11/Feb/2026 14:04:32] "GET / HTTP/1.1" 200 -
+2026-02-11 14:04:40,746 - INFO - Loading vector store for context
+2026-02-11 14:04:40,747 - INFO - Intializing our Huggingface embedding model
+2026-02-11 14:04:40,767 - INFO - Use pytorch device_name: cpu
+2026-02-11 14:04:40,767 - INFO - Load pretrained SentenceTransformer: sentence-transformers/all-MiniLM-L6-v2
+2026-02-11 14:04:45,404 - INFO - Huggingface embedding model loaded sucesfully....
+2026-02-11 14:04:45,406 - INFO - Loading existing Chroma vectorstore...
+2026-02-11 14:04:45,642 - INFO - Loading LLM from HuggingFace
+2026-02-11 14:04:45,642 - INFO - LLM loaded sucesfully...
+2026-02-11 14:04:45,642 - ERROR - Failed to make a QA chain | Error: name 'RetrievalQA' is not defined | File: D:\LLMOPS-PROJ\Ragbot\app\components\retriever.py | Line: 42
+2026-02-11 14:04:45,657 - INFO - 127.0.0.1 - - [11/Feb/2026 14:04:45] "POST / HTTP/1.1" 200 -
+2026-02-11 14:14:25,918 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.1.238:5000
+2026-02-11 14:14:25,920 - INFO - [33mPress CTRL+C to quit[0m
+2026-02-11 14:15:02,327 - INFO - 127.0.0.1 - - [11/Feb/2026 14:15:02] "GET / HTTP/1.1" 200 -
+2026-02-11 14:15:05,509 - INFO - 127.0.0.1 - - [11/Feb/2026 14:15:05] "[32mGET /clear HTTP/1.1[0m" 302 -
+2026-02-11 14:15:05,520 - INFO - 127.0.0.1 - - [11/Feb/2026 14:15:05] "GET / HTTP/1.1" 200 -
+2026-02-11 14:15:11,976 - INFO - Loading vector store for context
+2026-02-11 14:15:11,977 - INFO - Intializing our Huggingface embedding model
+2026-02-11 14:15:11,986 - INFO - Use pytorch device_name: cpu
+2026-02-11 14:15:11,986 - INFO - Load pretrained SentenceTransformer: sentence-transformers/all-MiniLM-L6-v2
+2026-02-11 14:15:17,432 - INFO - Huggingface embedding model loaded sucesfully....
+2026-02-11 14:15:17,432 - INFO - Loading existing Chroma vectorstore...
+2026-02-11 14:15:17,563 - INFO - Loading LLM from HuggingFace
+2026-02-11 14:15:17,564 - INFO - LLM loaded sucesfully...
+2026-02-11 14:15:17,565 - ERROR - Failed to make a QA chain | Error: name 'RetrievalQA' is not defined | File: D:\LLMOPS-PROJ\Ragbot\app\components\retriever.py | Line: 42
+2026-02-11 14:15:17,568 - INFO - 127.0.0.1 - - [11/Feb/2026 14:15:17] "POST / HTTP/1.1" 200 -
+2026-02-11 14:27:42,943 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.1.238:5000
+2026-02-11 14:27:42,948 - INFO - [33mPress CTRL+C to quit[0m
+2026-02-11 14:29:49,251 - INFO - 127.0.0.1 - - [11/Feb/2026 14:29:49] "GET / HTTP/1.1" 200 -
+2026-02-11 14:29:56,784 - INFO - Loading vector store for context
+2026-02-11 14:29:56,784 - INFO - Intializing our Huggingface embedding model
+2026-02-11 14:29:56,790 - INFO - Use pytorch device_name: cpu
+2026-02-11 14:29:56,790 - INFO - Load pretrained SentenceTransformer: sentence-transformers/all-MiniLM-L6-v2
+2026-02-11 14:30:00,102 - INFO - Huggingface embedding model loaded sucesfully....
+2026-02-11 14:30:00,103 - INFO - Loading existing Chroma vectorstore...
+2026-02-11 14:30:00,230 - INFO - Loading LLM from HuggingFace
+2026-02-11 14:30:00,231 - INFO - LLM loaded sucesfully...
+2026-02-11 14:30:00,231 - ERROR - Failed to make a QA chain | Error: name 'RetrievalQA' is not defined | File: D:\LLMOPS-PROJ\Ragbot\app\components\retriever.py | Line: 42
+2026-02-11 14:30:00,234 - INFO - 127.0.0.1 - - [11/Feb/2026 14:30:00] "POST / HTTP/1.1" 200 -
+2026-02-11 15:02:49,361 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.1.238:5000
+2026-02-11 15:02:49,362 - INFO - [33mPress CTRL+C to quit[0m
+2026-02-11 15:03:03,553 - INFO - 127.0.0.1 - - [11/Feb/2026 15:03:03] "GET / HTTP/1.1" 200 -
+2026-02-11 15:03:10,449 - INFO - 127.0.0.1 - - [11/Feb/2026 15:03:10] "[32mGET /clear HTTP/1.1[0m" 302 -
+2026-02-11 15:03:10,461 - INFO - 127.0.0.1 - - [11/Feb/2026 15:03:10] "GET / HTTP/1.1" 200 -
+2026-02-11 15:03:27,245 - INFO - Loading vector store for context
+2026-02-11 15:03:27,246 - INFO - Intializing our Huggingface embedding model
+2026-02-11 15:03:27,288 - INFO - Use pytorch device_name: cpu
+2026-02-11 15:03:27,288 - INFO - Load pretrained SentenceTransformer: sentence-transformers/all-MiniLM-L6-v2
+2026-02-11 15:03:31,499 - INFO - Huggingface embedding model loaded sucesfully....
+2026-02-11 15:03:31,499 - INFO - Loading existing Chroma vectorstore...
+2026-02-11 15:03:31,734 - INFO - Loading LLM from HuggingFace
+2026-02-11 15:03:31,738 - INFO - LLM loaded sucesfully...
+2026-02-11 15:03:31,738 - ERROR - Failed to make a QA chain | Error: name 'RetrievalQA' is not defined | File: D:\LLMOPS-PROJ\Ragbot\app\components\retriever.py | Line: 42
+2026-02-11 15:03:31,740 - INFO - 127.0.0.1 - - [11/Feb/2026 15:03:31] "POST / HTTP/1.1" 200 -
+2026-02-11 15:11:15,128 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.1.238:5000
+2026-02-11 15:11:15,128 - INFO - [33mPress CTRL+C to quit[0m
+2026-02-11 15:11:38,988 - INFO - 127.0.0.1 - - [11/Feb/2026 15:11:38] "GET / HTTP/1.1" 200 -
+2026-02-11 15:11:50,174 - INFO - Loading vector store for context
+2026-02-11 15:11:50,175 - INFO - Intializing our Huggingface embedding model
+2026-02-11 15:11:50,184 - INFO - Use pytorch device_name: cpu
+2026-02-11 15:11:50,185 - INFO - Load pretrained SentenceTransformer: sentence-transformers/all-MiniLM-L6-v2
+2026-02-11 15:11:53,310 - INFO - Huggingface embedding model loaded sucesfully....
+2026-02-11 15:11:53,311 - INFO - Loading existing Chroma vectorstore...
+2026-02-11 15:11:53,419 - INFO - Loading LLM from HuggingFace
+2026-02-11 15:11:53,419 - INFO - LLM loaded sucesfully...
+2026-02-11 15:11:53,419 - ERROR - Failed to make a QA chain | Error: name 'RetrievalQA' is not defined | File: D:\LLMOPS-PROJ\Ragbot\app\components\retriever.py | Line: 42
+2026-02-11 15:11:53,419 - INFO - 127.0.0.1 - - [11/Feb/2026 15:11:53] "POST / HTTP/1.1" 200 -
+2026-02-11 15:20:59,177 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.1.238:5000
+2026-02-11 15:20:59,177 - INFO - [33mPress CTRL+C to quit[0m
+2026-02-11 15:21:08,072 - INFO - 127.0.0.1 - - [11/Feb/2026 15:21:08] "GET / HTTP/1.1" 200 -
+2026-02-11 15:21:11,778 - INFO - 127.0.0.1 - - [11/Feb/2026 15:21:11] "GET / HTTP/1.1" 200 -
+2026-02-11 15:21:12,057 - INFO - 127.0.0.1 - - [11/Feb/2026 15:21:12] "GET / HTTP/1.1" 200 -
+2026-02-11 15:21:18,323 - INFO - Loading vector store for context
+2026-02-11 15:21:18,323 - INFO - Intializing our Huggingface embedding model
+2026-02-11 15:21:18,329 - INFO - Use pytorch device_name: cpu
+2026-02-11 15:21:18,329 - INFO - Load pretrained SentenceTransformer: sentence-transformers/all-MiniLM-L6-v2
+2026-02-11 15:21:22,090 - INFO - Huggingface embedding model loaded sucesfully....
+2026-02-11 15:21:22,090 - INFO - Loading existing Chroma vectorstore...
+2026-02-11 15:21:22,189 - INFO - Loading LLM from HuggingFace
+2026-02-11 15:21:22,189 - INFO - LLM loaded sucesfully...
+2026-02-11 15:21:22,189 - ERROR - Failed to make a QA chain | Error: name 'RetrievalQA' is not defined | File: D:\LLMOPS-PROJ\Ragbot\app\components\retriever.py | Line: 42
+2026-02-11 15:21:22,194 - INFO - 127.0.0.1 - - [11/Feb/2026 15:21:22] "POST / HTTP/1.1" 200 -
+2026-02-11 15:29:10,754 - INFO - Making the vectorstore....
+2026-02-11 15:29:10,754 - INFO - Loading files from data/
+2026-02-11 15:29:52,453 - INFO - Sucesfully fetched 759 documents
+2026-02-11 15:29:52,453 - INFO - Splitting 759 documents into chunks
+2026-02-11 15:29:52,917 - INFO - Generated 7080 text chunks
+2026-02-11 15:29:52,917 - INFO - Generating your new Chroma vectorstore...
+2026-02-11 15:29:52,917 - INFO - Intializing our Huggingface embedding model
+2026-02-11 15:29:52,931 - INFO - Use pytorch device_name: cpu
+2026-02-11 15:29:52,931 - INFO - Load pretrained SentenceTransformer: sentence-transformers/all-MiniLM-L6-v2
+2026-02-11 15:29:57,351 - INFO - Huggingface embedding model loaded sucesfully....
+2026-02-11 15:29:59,078 - INFO - Anonymized telemetry enabled. See                     https://docs.trychroma.com/telemetry for more information.
+2026-02-11 15:33:21,647 - INFO - Vectorstore saved successfully at: vectorstore/chroma_db
+2026-02-11 15:33:21,647 - INFO - Vectorstore created sucessfully....
+2026-02-11 15:34:01,537 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.1.238:5000
+2026-02-11 15:34:01,537 - INFO - [33mPress CTRL+C to quit[0m
+2026-02-11 15:34:14,497 - INFO - 192.168.1.238 - - [11/Feb/2026 15:34:14] "GET / HTTP/1.1" 200 -
+2026-02-11 15:34:14,818 - INFO - 192.168.1.238 - - [11/Feb/2026 15:34:14] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2026-02-11 15:34:19,530 - INFO - 127.0.0.1 - - [11/Feb/2026 15:34:19] "GET / HTTP/1.1" 200 -
+2026-02-11 15:34:22,189 - INFO - 127.0.0.1 - - [11/Feb/2026 15:34:22] "GET / HTTP/1.1" 200 -
+2026-02-11 15:34:27,273 - INFO - 127.0.0.1 - - [11/Feb/2026 15:34:27] "GET / HTTP/1.1" 200 -
+2026-02-11 15:34:28,469 - INFO - 127.0.0.1 - - [11/Feb/2026 15:34:28] "GET / HTTP/1.1" 200 -
+2026-02-11 15:34:29,409 - INFO - 127.0.0.1 - - [11/Feb/2026 15:34:29] "GET / HTTP/1.1" 200 -
+2026-02-11 15:34:37,012 - INFO - 127.0.0.1 - - [11/Feb/2026 15:34:37] "[32mGET /clear HTTP/1.1[0m" 302 -
+2026-02-11 15:34:37,026 - INFO - 127.0.0.1 - - [11/Feb/2026 15:34:37] "GET / HTTP/1.1" 200 -
+2026-02-11 15:34:51,073 - INFO - Loading vector store for context
+2026-02-11 15:34:51,073 - INFO - Intializing our Huggingface embedding model
+2026-02-11 15:34:51,079 - INFO - Use pytorch device_name: cpu
+2026-02-11 15:34:51,079 - INFO - Load pretrained SentenceTransformer: sentence-transformers/all-MiniLM-L6-v2
+2026-02-11 15:34:54,830 - INFO - Huggingface embedding model loaded sucesfully....
+2026-02-11 15:34:54,832 - INFO - Loading existing Chroma vectorstore...
+2026-02-11 15:34:54,932 - INFO - Loading LLM from HuggingFace
+2026-02-11 15:34:54,932 - INFO - LLM loaded sucesfully...
+2026-02-11 15:34:54,932 - ERROR - Failed to make a QA chain | Error: name 'RetrievalQA' is not defined | File: D:\LLMOPS-PROJ\Ragbot\app\components\retriever.py | Line: 42
+2026-02-11 15:34:54,932 - INFO - 127.0.0.1 - - [11/Feb/2026 15:34:54] "POST / HTTP/1.1" 200 -
+2026-02-11 16:43:45,021 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.1.238:5000
+2026-02-11 16:43:45,021 - INFO - [33mPress CTRL+C to quit[0m
+2026-02-11 16:44:03,162 - INFO - 127.0.0.1 - - [11/Feb/2026 16:44:03] "GET / HTTP/1.1" 200 -
+2026-02-11 16:44:07,870 - INFO - 127.0.0.1 - - [11/Feb/2026 16:44:07] "GET / HTTP/1.1" 200 -
+2026-02-11 16:44:15,365 - INFO - 127.0.0.1 - - [11/Feb/2026 16:44:15] "GET / HTTP/1.1" 200 -
+2026-02-11 16:44:28,329 - INFO - Loading vector store for context
+2026-02-11 16:44:28,329 - INFO - Intializing our Huggingface embedding model
+2026-02-11 16:44:28,334 - INFO - Use pytorch device_name: cpu
+2026-02-11 16:44:28,334 - INFO - Load pretrained SentenceTransformer: sentence-transformers/all-MiniLM-L6-v2
+2026-02-11 16:44:32,418 - INFO - Huggingface embedding model loaded sucesfully....
+2026-02-11 16:44:32,418 - INFO - Loading existing Chroma vectorstore...
+2026-02-11 16:44:32,523 - INFO - Anonymized telemetry enabled. See                     https://docs.trychroma.com/telemetry for more information.
+2026-02-11 16:44:33,673 - INFO - Loading LLM from HuggingFace
+2026-02-11 16:44:33,673 - INFO - Loading LLM from HuggingFace
+2026-02-11 16:44:34,005 - INFO - LLM loaded sucesfully...
+2026-02-11 16:44:34,009 - INFO - Successfully created the QA chain
+2026-02-11 16:44:35,785 - INFO - 127.0.0.1 - - [11/Feb/2026 16:44:35] "[32mPOST / HTTP/1.1[0m" 302 -
+2026-02-11 16:44:35,789 - INFO - 127.0.0.1 - - [11/Feb/2026 16:44:35] "GET / HTTP/1.1" 200 -
+2026-02-11 16:54:28,837 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.1.238:5000
+2026-02-11 16:54:28,845 - INFO - [33mPress CTRL+C to quit[0m
+2026-02-11 16:55:30,300 - INFO - 127.0.0.1 - - [11/Feb/2026 16:55:30] "GET / HTTP/1.1" 200 -
+2026-02-11 16:55:37,741 - INFO - Loading vector store for context
+2026-02-11 16:55:37,741 - INFO - Intializing our Huggingface embedding model
+2026-02-11 16:55:37,750 - INFO - Use pytorch device_name: cpu
+2026-02-11 16:55:37,750 - INFO - Load pretrained SentenceTransformer: sentence-transformers/all-MiniLM-L6-v2
+2026-02-11 16:55:41,454 - INFO - Huggingface embedding model loaded sucesfully....
+2026-02-11 16:55:41,464 - INFO - Loading existing Chroma vectorstore...
+2026-02-11 16:55:41,612 - INFO - Anonymized telemetry enabled. See                     https://docs.trychroma.com/telemetry for more information.
+2026-02-11 16:55:41,904 - INFO - Loading LLM from HuggingFace
+2026-02-11 16:55:41,904 - INFO - Loading LLM from HuggingFace
+2026-02-11 16:55:42,180 - INFO - LLM loaded sucesfully...
+2026-02-11 16:55:42,180 - INFO - Successfully created the QA chain
+2026-02-11 16:55:44,052 - INFO - 127.0.0.1 - - [11/Feb/2026 16:55:44] "[32mPOST / HTTP/1.1[0m" 302 -
+2026-02-11 16:55:44,065 - INFO - 127.0.0.1 - - [11/Feb/2026 16:55:44] "GET / HTTP/1.1" 200 -
+2026-02-11 17:00:45,098 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.1.238:5000
+2026-02-11 17:00:45,098 - INFO - [33mPress CTRL+C to quit[0m
+2026-02-11 17:00:54,877 - INFO - 127.0.0.1 - - [11/Feb/2026 17:00:54] "GET / HTTP/1.1" 200 -
+2026-02-11 17:00:58,310 - INFO - Loading vector store for context
+2026-02-11 17:00:58,310 - INFO - Intializing our Huggingface embedding model
+2026-02-11 17:00:58,314 - INFO - Use pytorch device_name: cpu
+2026-02-11 17:00:58,314 - INFO - Load pretrained SentenceTransformer: sentence-transformers/all-MiniLM-L6-v2
+2026-02-11 17:01:02,335 - INFO - Huggingface embedding model loaded sucesfully....
+2026-02-11 17:01:02,337 - INFO - Loading existing Chroma vectorstore...
+2026-02-11 17:01:02,453 - INFO - Anonymized telemetry enabled. See                     https://docs.trychroma.com/telemetry for more information.
+2026-02-11 17:01:02,710 - INFO - Loading LLM from HuggingFace
+2026-02-11 17:01:02,710 - INFO - Loading LLM from HuggingFace
+2026-02-11 17:01:03,000 - INFO - LLM loaded sucesfully...
+2026-02-11 17:01:03,016 - INFO - Successfully created the QA chain
+2026-02-11 17:01:05,091 - INFO - 127.0.0.1 - - [11/Feb/2026 17:01:05] "[32mPOST / HTTP/1.1[0m" 302 -
+2026-02-11 17:01:05,106 - INFO - 127.0.0.1 - - [11/Feb/2026 17:01:05] "GET / HTTP/1.1" 200 -
+2026-02-11 17:01:13,524 - INFO - Loading vector store for context
+2026-02-11 17:01:13,526 - INFO - Intializing our Huggingface embedding model
+2026-02-11 17:01:13,531 - INFO - Use pytorch device_name: cpu
+2026-02-11 17:01:13,531 - INFO - Load pretrained SentenceTransformer: sentence-transformers/all-MiniLM-L6-v2
+2026-02-11 17:01:16,102 - INFO - Loading vector store for context
+2026-02-11 17:01:16,104 - INFO - Intializing our Huggingface embedding model
+2026-02-11 17:01:16,115 - INFO - Use pytorch device_name: cpu
+2026-02-11 17:01:16,119 - INFO - Load pretrained SentenceTransformer: sentence-transformers/all-MiniLM-L6-v2
+2026-02-11 17:01:17,376 - INFO - Huggingface embedding model loaded sucesfully....
+2026-02-11 17:01:17,376 - INFO - Loading existing Chroma vectorstore...
+2026-02-11 17:01:17,504 - INFO - Loading LLM from HuggingFace
+2026-02-11 17:01:17,504 - INFO - Loading LLM from HuggingFace
+2026-02-11 17:01:17,504 - INFO - LLM loaded sucesfully...
+2026-02-11 17:01:17,504 - INFO - Successfully created the QA chain
+2026-02-11 17:01:17,573 - INFO - 127.0.0.1 - - [11/Feb/2026 17:01:17] "[32mPOST / HTTP/1.1[0m" 302 -
+2026-02-11 17:01:20,034 - INFO - Huggingface embedding model loaded sucesfully....
+2026-02-11 17:01:20,034 - INFO - Loading existing Chroma vectorstore...
+2026-02-11 17:01:20,165 - INFO - Loading LLM from HuggingFace
+2026-02-11 17:01:20,165 - INFO - Loading LLM from HuggingFace
+2026-02-11 17:01:20,165 - INFO - LLM loaded sucesfully...
+2026-02-11 17:01:20,170 - INFO - Successfully created the QA chain
+2026-02-11 17:01:20,306 - INFO - 127.0.0.1 - - [11/Feb/2026 17:01:20] "[32mPOST / HTTP/1.1[0m" 302 -
+2026-02-11 17:01:20,314 - INFO - 127.0.0.1 - - [11/Feb/2026 17:01:20] "GET / HTTP/1.1" 200 -
+2026-02-11 17:07:30,092 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.1.238:5000
+2026-02-11 17:07:30,092 - INFO - [33mPress CTRL+C to quit[0m
+2026-02-11 17:07:45,632 - INFO - 127.0.0.1 - - [11/Feb/2026 17:07:45] "GET / HTTP/1.1" 200 -
+2026-02-11 17:07:57,924 - INFO - Loading vector store for context
+2026-02-11 17:07:57,924 - INFO - Intializing our Huggingface embedding model
+2026-02-11 17:07:57,940 - INFO - Use pytorch device_name: cpu
+2026-02-11 17:07:57,940 - INFO - Load pretrained SentenceTransformer: sentence-transformers/all-MiniLM-L6-v2
+2026-02-11 17:08:01,551 - INFO - Huggingface embedding model loaded sucesfully....
+2026-02-11 17:08:01,553 - INFO - Loading existing Chroma vectorstore...
+2026-02-11 17:08:01,651 - INFO - Anonymized telemetry enabled. See                     https://docs.trychroma.com/telemetry for more information.
+2026-02-11 17:08:01,936 - INFO - Loading LLM from HuggingFace
+2026-02-11 17:08:01,936 - INFO - Loading LLM from HuggingFace
+2026-02-11 17:08:02,207 - INFO - LLM loaded sucesfully...
+2026-02-11 17:08:02,207 - INFO - Successfully created the QA chain
+2026-02-11 17:08:03,840 - INFO - 127.0.0.1 - - [11/Feb/2026 17:08:03] "[32mPOST / HTTP/1.1[0m" 302 -
+2026-02-11 17:08:03,854 - INFO - 127.0.0.1 - - [11/Feb/2026 17:08:03] "GET / HTTP/1.1" 200 -
+2026-02-11 17:16:39,660 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.1.238:5000
+2026-02-11 17:16:39,660 - INFO - [33mPress CTRL+C to quit[0m
+2026-02-11 17:16:50,116 - INFO - 127.0.0.1 - - [11/Feb/2026 17:16:50] "GET / HTTP/1.1" 200 -
+2026-02-11 17:17:46,698 - INFO - Loading vector store for context
+2026-02-11 17:17:46,700 - INFO - Intializing our Huggingface embedding model
+2026-02-11 17:17:46,706 - INFO - Use pytorch device_name: cpu
+2026-02-11 17:17:46,706 - INFO - Load pretrained SentenceTransformer: sentence-transformers/all-MiniLM-L6-v2
+2026-02-11 17:17:47,842 - WARNING - '(ProtocolError('Connection aborted.', ConnectionResetError(10054, 'An existing connection was forcibly closed by the remote host', None, 10054, None)), '(Request ID: 3ee9d479-8066-472b-8006-e9a66bb4d806)')' thrown while requesting HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/./modules.json
+2026-02-11 17:17:47,842 - WARNING - Retrying in 1s [Retry 1/5].
+2026-02-11 17:17:53,749 - INFO - Huggingface embedding model loaded sucesfully....
+2026-02-11 17:17:53,749 - INFO - Loading existing Chroma vectorstore...
+2026-02-11 17:17:53,898 - INFO - Anonymized telemetry enabled. See                     https://docs.trychroma.com/telemetry for more information.
+2026-02-11 17:17:54,207 - INFO - Loading LLM from HuggingFace
+2026-02-11 17:17:54,207 - INFO - Loading LLM from HuggingFace
+2026-02-11 17:17:54,573 - ERROR - Failed to load a llm | Error: name 'ChatHuggingFace' is not defined | File: D:\LLMOPS-PROJ\Ragbot\app\components\llm.py | Line: 21
+2026-02-11 17:17:54,573 - ERROR - Failed to make a QA chain | Error: LLM not loaded | Error: None | File: Unknown File | Line: Unknown Line
+2026-02-11 17:17:54,579 - INFO - 127.0.0.1 - - [11/Feb/2026 17:17:54] "[32mPOST / HTTP/1.1[0m" 302 -
+2026-02-11 17:17:54,599 - INFO - 127.0.0.1 - - [11/Feb/2026 17:17:54] "GET / HTTP/1.1" 200 -
+2026-02-11 17:21:39,103 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.1.238:5000
+2026-02-11 17:21:39,103 - INFO - [33mPress CTRL+C to quit[0m
+2026-02-11 17:22:19,148 - INFO - 127.0.0.1 - - [11/Feb/2026 17:22:19] "GET / HTTP/1.1" 200 -
+2026-02-11 17:22:25,721 - INFO - Loading vector store for context
+2026-02-11 17:22:25,721 - INFO - Intializing our Huggingface embedding model
+2026-02-11 17:22:25,721 - INFO - Use pytorch device_name: cpu
+2026-02-11 17:22:25,721 - INFO - Load pretrained SentenceTransformer: sentence-transformers/all-MiniLM-L6-v2
+2026-02-11 17:22:29,693 - INFO - Huggingface embedding model loaded sucesfully....
+2026-02-11 17:22:29,693 - INFO - Loading existing Chroma vectorstore...
+2026-02-11 17:22:29,784 - INFO - Anonymized telemetry enabled. See                     https://docs.trychroma.com/telemetry for more information.
+2026-02-11 17:22:30,037 - INFO - Loading LLM from HuggingFace
+2026-02-11 17:22:30,037 - INFO - Loading LLM from HuggingFace
+2026-02-11 17:22:30,572 - INFO - LLM loaded sucesfully...
+2026-02-11 17:22:30,588 - ERROR - Failed to load a llm | Error: name 'chatmodel' is not defined | File: D:\LLMOPS-PROJ\Ragbot\app\components\llm.py | Line: 23
+2026-02-11 17:22:30,588 - ERROR - Failed to make a QA chain | Error: LLM not loaded | Error: None | File: Unknown File | Line: Unknown Line
+2026-02-11 17:22:30,588 - INFO - 127.0.0.1 - - [11/Feb/2026 17:22:30] "[32mPOST / HTTP/1.1[0m" 302 -
+2026-02-11 17:22:30,597 - INFO - 127.0.0.1 - - [11/Feb/2026 17:22:30] "GET / HTTP/1.1" 200 -
+2026-02-11 17:26:04,477 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.1.238:5000
+2026-02-11 17:26:04,477 - INFO - [33mPress CTRL+C to quit[0m
+2026-02-11 17:26:21,506 - INFO - 127.0.0.1 - - [11/Feb/2026 17:26:21] "GET / HTTP/1.1" 200 -
+2026-02-11 17:26:27,490 - INFO - Loading vector store for context
+2026-02-11 17:26:27,490 - INFO - Intializing our Huggingface embedding model
+2026-02-11 17:26:27,493 - INFO - Use pytorch device_name: cpu
+2026-02-11 17:26:27,493 - INFO - Load pretrained SentenceTransformer: sentence-transformers/all-MiniLM-L6-v2
+2026-02-11 17:26:31,465 - INFO - Huggingface embedding model loaded sucesfully....
+2026-02-11 17:26:31,466 - INFO - Loading existing Chroma vectorstore...
+2026-02-11 17:26:31,578 - INFO - Anonymized telemetry enabled. See                     https://docs.trychroma.com/telemetry for more information.
+2026-02-11 17:26:31,818 - INFO - Loading LLM from HuggingFace
+2026-02-11 17:26:31,818 - INFO - Loading LLM from HuggingFace
+2026-02-11 17:26:32,106 - INFO - LLM loaded sucesfully...
+2026-02-11 17:26:32,119 - INFO - Successfully created the QA chain
+2026-02-11 17:26:33,590 - INFO - 127.0.0.1 - - [11/Feb/2026 17:26:33] "[32mPOST / HTTP/1.1[0m" 302 -
+2026-02-11 17:26:33,607 - INFO - 127.0.0.1 - - [11/Feb/2026 17:26:33] "GET / HTTP/1.1" 200 -
+2026-02-11 17:43:55,060 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.1.238:5000
+2026-02-11 17:43:55,060 - INFO - [33mPress CTRL+C to quit[0m
+2026-02-11 17:44:17,579 - INFO - 127.0.0.1 - - [11/Feb/2026 17:44:17] "GET / HTTP/1.1" 200 -
+2026-02-11 17:44:24,979 - INFO - Loading vector store for context
+2026-02-11 17:44:24,979 - INFO - Intializing our Huggingface embedding model
+2026-02-11 17:44:24,986 - INFO - Use pytorch device_name: cpu
+2026-02-11 17:44:24,986 - INFO - Load pretrained SentenceTransformer: sentence-transformers/all-MiniLM-L6-v2
+2026-02-11 17:44:29,579 - INFO - Huggingface embedding model loaded sucesfully....
+2026-02-11 17:44:29,581 - INFO - Loading existing Chroma vectorstore...
+2026-02-11 17:44:29,685 - INFO - Anonymized telemetry enabled. See                     https://docs.trychroma.com/telemetry for more information.
+2026-02-11 17:44:29,924 - INFO - Loading LLM from Groq
+2026-02-11 17:44:29,924 - INFO - Loading LLM from Groq using LLaMA3 model...
+2026-02-11 17:44:32,008 - INFO - LLM loaded successfully from Groq.
+2026-02-11 17:44:32,008 - INFO - Successfully created the QA chain
+2026-02-11 17:44:32,955 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-02-11 17:44:32,978 - INFO - 127.0.0.1 - - [11/Feb/2026 17:44:32] "[32mPOST / HTTP/1.1[0m" 302 -
+2026-02-11 17:44:32,997 - INFO - 127.0.0.1 - - [11/Feb/2026 17:44:32] "GET / HTTP/1.1" 200 -
+2026-02-11 17:45:29,204 - INFO - Loading vector store for context
+2026-02-11 17:45:29,204 - INFO - Intializing our Huggingface embedding model
+2026-02-11 17:45:29,210 - INFO - Use pytorch device_name: cpu
+2026-02-11 17:45:29,210 - INFO - Load pretrained SentenceTransformer: sentence-transformers/all-MiniLM-L6-v2
+2026-02-11 17:45:33,444 - INFO - Huggingface embedding model loaded sucesfully....
+2026-02-11 17:45:33,446 - INFO - Loading existing Chroma vectorstore...
+2026-02-11 17:45:33,551 - INFO - Loading LLM from Groq
+2026-02-11 17:45:33,552 - INFO - Loading LLM from Groq using LLaMA3 model...
+2026-02-11 17:45:34,918 - INFO - LLM loaded successfully from Groq.
+2026-02-11 17:45:34,918 - INFO - Successfully created the QA chain
+2026-02-11 17:45:35,482 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-02-11 17:45:35,485 - INFO - 127.0.0.1 - - [11/Feb/2026 17:45:35] "[32mPOST / HTTP/1.1[0m" 302 -
+2026-02-11 17:45:35,496 - INFO - 127.0.0.1 - - [11/Feb/2026 17:45:35] "GET / HTTP/1.1" 200 -
+2026-02-11 17:47:58,105 - INFO - Loading vector store for context
+2026-02-11 17:47:58,108 - INFO - Intializing our Huggingface embedding model
+2026-02-11 17:47:58,118 - INFO - Use pytorch device_name: cpu
+2026-02-11 17:47:58,118 - INFO - Load pretrained SentenceTransformer: sentence-transformers/all-MiniLM-L6-v2
+2026-02-11 17:48:03,443 - INFO - Huggingface embedding model loaded sucesfully....
+2026-02-11 17:48:03,443 - INFO - Loading existing Chroma vectorstore...
+2026-02-11 17:48:03,604 - INFO - Loading LLM from Groq
+2026-02-11 17:48:03,604 - INFO - Loading LLM from Groq using LLaMA3 model...
+2026-02-11 17:48:05,043 - INFO - LLM loaded successfully from Groq.
+2026-02-11 17:48:05,043 - INFO - Successfully created the QA chain
+2026-02-11 17:48:05,791 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-02-11 17:48:05,796 - INFO - 127.0.0.1 - - [11/Feb/2026 17:48:05] "[32mPOST / HTTP/1.1[0m" 302 -
+2026-02-11 17:48:05,807 - INFO - 127.0.0.1 - - [11/Feb/2026 17:48:05] "GET / HTTP/1.1" 200 -
+2026-02-11 17:48:37,164 - INFO - Loading vector store for context
+2026-02-11 17:48:37,164 - INFO - Intializing our Huggingface embedding model
+2026-02-11 17:48:37,172 - INFO - Use pytorch device_name: cpu
+2026-02-11 17:48:37,174 - INFO - Load pretrained SentenceTransformer: sentence-transformers/all-MiniLM-L6-v2
+2026-02-11 17:48:42,151 - INFO - Huggingface embedding model loaded sucesfully....
+2026-02-11 17:48:42,151 - INFO - Loading existing Chroma vectorstore...
+2026-02-11 17:48:42,254 - INFO - Loading LLM from Groq
+2026-02-11 17:48:42,254 - INFO - Loading LLM from Groq using LLaMA3 model...
+2026-02-11 17:48:44,351 - INFO - LLM loaded successfully from Groq.
+2026-02-11 17:48:44,351 - INFO - Successfully created the QA chain
+2026-02-11 17:48:44,909 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-02-11 17:48:44,917 - INFO - 127.0.0.1 - - [11/Feb/2026 17:48:44] "[32mPOST / HTTP/1.1[0m" 302 -
+2026-02-11 17:48:44,928 - INFO - 127.0.0.1 - - [11/Feb/2026 17:48:44] "GET / HTTP/1.1" 200 -
